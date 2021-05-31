@@ -1,11 +1,13 @@
 import React from 'react'
+import Common from "./Common";
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+              <Common 
+                  name="This is Home page"
+                  imgsrc="image/pug.jpg"
+              />      
     )
 }
 
-export default Home
+export default Home;

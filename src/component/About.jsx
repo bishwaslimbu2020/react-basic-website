@@ -1,9 +1,13 @@
 import React from 'react'
+import Common from "./Common"
 
 function About() {
     return (
         <div>
-            <h1>About</h1>
+            <Common 
+                  name="This is About page"
+                  imgsrc="image/vulture.jpg"
+              />  
         </div>
     )
 }
